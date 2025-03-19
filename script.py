@@ -18,9 +18,9 @@ CSV_FILE_PATH = 'daily_prices.csv'
 
 
 # BigQuery configuration      (Update with your GCP project ID, dataset ID and table ID)
-PROJECT_ID = 'your project'    # Update with your GCP project ID
-DATASET_ID = 'dataset'    # Update with your dataset ID
-TABLE_ID = 'table'
+PROJECT_ID = 'fuelpriceanalytics'    # Update with your GCP project ID
+DATASET_ID = 'stage1'    # Update with your dataset ID
+TABLE_ID = 'raw_daily_price_dbt'
 
 
 # Download and read the CSV file
