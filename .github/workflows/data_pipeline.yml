@@ -25,3 +25,4 @@ jobs: AM UTC
 
     - name: Run CSV to BigQuery pipeline
       run: python script.py
+ 
