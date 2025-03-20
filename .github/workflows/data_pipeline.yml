@@ -3,8 +3,7 @@ on:
   schedule:
     - cron: '0 12 * * *'
   workflow_dispatch:
-
-jobs: AM UTC
+jobs:
   run-pipeline:
     runs-on: ubuntu-latest
     env:
